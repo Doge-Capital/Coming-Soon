@@ -13,19 +13,18 @@ import "./styles.css";
 const App = () => {
   return (
     <section className="page">
-      <img
-        src={logo}
-        width={300}
-        height={150}
-        style={{ position: "absolute", top: "-1rem", left: "-1rem" }}
-      ></img>
-      <div style={{ position: "absolute", top: "2.25rem", right: "1rem" }}>
-        connect . collect . customise
-      </div>
-      <div style={{ position: "absolute", bottom: "2.25rem", left: "1rem" }}>
+      <img className="logo" src={logo} width={300} height={150}></img>
+      <div className="tagline1">connect . collect . customise</div>
+      <div
+        className="tagline2"
+        style={{ position: "absolute", bottom: "2.25rem", left: "1rem" }}
+      >
         #NFTREVOLUTION
       </div>
-      <div style={{ position: "absolute", bottom: "2.25rem", right: "1rem" }}>
+      <div
+        className="tagline3"
+        style={{ position: "absolute", bottom: "2.25rem", right: "1rem" }}
+      >
         Your NFTs, Your Choice
       </div>
 
@@ -56,7 +55,7 @@ const App = () => {
           style={{ position: "relative", left: "1rem", bottom: "0.25rem" }}
         ></img>
       </div> */}
-      <div style={{ display: "flex", position: "absolute", bottom: "2rem" }}>
+      <div className="social-icons">
         <a
           className="block m-0 text-white underline"
           href="https://twitter.com/thedogecapital"
