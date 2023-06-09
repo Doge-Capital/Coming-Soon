@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500&display=swap");
+
 .flip-clock {
   --fcc-flip-duration: 0.5s; /* transition duration when flip card */
   --fcc-digit-block-width: 30px; /* width of digit card */
@@ -20,7 +23,8 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  background: #000;
+  font-family: "Kanit", sans-serif;
   color: #fff;
 }
 
@@ -33,12 +37,12 @@ body {
   align-items: center;
 }
 
-.overlay {
+/* .overlay {
   background: hsla(0, 0%, 0%, 0.7);
   width: 100%;
   height: 100%;
   position: absolute;
-}
+} */
 
 .page__content {
   position: absolute;
@@ -67,8 +71,7 @@ body {
 }
 
 .flip-clock {
-  font-family: 'Orbitron';
-  font-weight: 700;
+  font-family: "Kanit";
   margin-bottom: 2rem;
 }
 
@@ -78,7 +81,7 @@ body {
   background: #fff;
   color: #000;
   font-size: 1rem;
-  font-family: 'Poppins';
+  font-family: "Kanit";
   text-transform: uppercase;
   letter-spacing: 1px;
   border-radius: 0.4rem;
