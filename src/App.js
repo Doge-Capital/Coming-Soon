@@ -58,7 +58,7 @@ const App = () => {
       <div className="social-icons">
         <a
           className="block m-0 text-white underline"
-          href="https://twitter.com/thedogecapital"
+          href="https://twitter.com/thewardr0be"
           target="_blank"
           rel="noreferrer"
         >
