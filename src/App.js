@@ -14,7 +14,7 @@ const App = () => {
   return (
     <section className="page">
       <img className="logo" src={logo} width={300} height={150}></img>
-      <div className="tagline1">connect . collect . customise</div>
+      <div className="tagline1">connect . collect . customize</div>
       <div
         className="tagline2"
         style={{ position: "absolute", bottom: "2.25rem", left: "1rem" }}
