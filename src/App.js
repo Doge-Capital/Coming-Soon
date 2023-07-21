@@ -38,7 +38,7 @@ const App = () => {
         {/* <h1>Launching Soon</h1> */}
         <FlipClockCountdown
           className="flip-clock"
-          to={1687430903000 + 86400000 * 32}
+          to={1687430903000 + 86400000 * 34}
         />
       </div>
       {/* <div
