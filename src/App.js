@@ -40,6 +40,17 @@ const App = () => {
           className="flip-clock"
           to={1687430903000 + 86400000 * 34}
         />
+        <h1>Wardrobe is live !!</h1>
+        <a
+          href="https://wardrobe.kenl.live"
+          style={{ fontSize: "1.25rem", color: "white" }}
+        >
+          wardrobe.kenl.live
+        </a>
+        <img
+          src={rocket}
+          style={{ position: "relative", left: "0rem", top: "1rem" }}
+        ></img>
       </div>
       {/* <div
         style={{
